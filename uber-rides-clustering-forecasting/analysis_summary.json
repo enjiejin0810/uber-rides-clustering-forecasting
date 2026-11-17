@@ -1,14 +1,14 @@
 {
   "rows": 1028136,
-  "start": "2014-09-01 00:00:00",
-  "end": "2014-09-30 22:59:00",
-  "duplicates_exact": 24037,
-  "missing_values": 0,
-  "best_k_by_sample_silhouette": 8,
-  "silhouette_sample": 0.4640583558479505,
-  "overall_hourly_peak": 18,
-  "overall_daily_peak": "2014-09-13",
-  "mean_holdout_mae_per_cluster": 25.963822355289423,
-  "mean_holdout_rmse_per_cluster": 37.37028604928699,
-  "overall_holdout_wape_pct": 14.528013715077092
+  "selected_k_by_combined_rank": 8,
+  "final_training_sample_quality": {
+    "silhouette": 0.4673090758085741,
+    "calinski_harabasz": 14346.48874085466,
+    "davies_bouldin": 0.7052109850729419
+  },
+  "cutoff": "2014-09-24 00:00:00",
+  "holdout_hours": 167,
+  "duplicates_retained": 24037,
+  "forecast_wape_pct": 14.63928118700195,
+  "weekly_naive_wape_pct": 16.296426596974417
 }
